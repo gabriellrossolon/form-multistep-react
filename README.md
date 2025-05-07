@@ -1,12 +1,42 @@
-# React + Vite
+# 📋 Formulário Multi-Step
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto de **formulário multi-etapas** com foco em **componentização**, utilizando **React**, **TailwindCSS** e **hooks personalizados** para uma estrutura limpa, reutilizável e moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- 🎨 TailwindCSS
+- 🧠 React Hooks (incluindo hooks customizados)
+- 📦 Vite
+- ☁️ Hospedado no Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Estrutura do Projeto
+
+Este formulário foi construído com foco em **alta componentização**, e também **persistência de dados** onde cada etapa é um componente separado e o estado global é compartilhado via hook personalizado. Isso facilita a manutenção e escalabilidade do projeto.
+
+---
+
+## 🔍 Funcionalidades
+
+- Validação de campos por etapa
+- Navegação entre etapas (próximo/voltar)
+- Feedback visual com ícones e cores
+- Estilização responsiva com Tailwind
+- Componente de progresso (se houver)
+- Exibição final de dados preenchidos
+
+---
+
+## 🖼️ Prints do Projeto
+![screencapture-form-multistep-react-nu-vercel-app-2025-05-07-16_55_54](https://github.com/user-attachments/assets/01bda111-04c2-4cb5-9122-6f2212b8600a)
+![screencapture-form-multistep-react-nu-vercel-app-2025-05-07-16_56_31](https://github.com/user-attachments/assets/b460bd93-8216-4ba6-afa7-188e7d2a8f73)
+![screencapture-form-multistep-react-nu-vercel-app-2025-05-07-16_56_42](https://github.com/user-attachments/assets/44f8d92c-e9df-4c3d-9364-bf738082b9ae)
+
+---
+
+## 🌐 Acessar o Projeto
+https://form-multistep-react-nu.vercel.app
